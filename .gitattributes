@@ -3,6 +3,7 @@
 /COPYING -text
 /ChangeLog -text
 /Makefile.am -text
+/NEWS -text
 /README -text
 /apertium-sqi-0.1.pc.in -text
 /apertium-sqi.sqi.dix -text

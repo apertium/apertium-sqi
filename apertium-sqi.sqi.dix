@@ -63,6 +63,7 @@
 
     <sdef n="pers"      c="Personal"/>
     <sdef n="dem"       c="Demonstrative"/>
+    <sdef n="clt"       c="Clitic"/>
     <sdef n="pos"       c="Possessive"/>
     <sdef n="qnt"       c="Quantifier"/>
     <sdef n="ord"       c="Ordinal"/>
@@ -70,6 +71,8 @@
     <sdef n="itg"       c="Interrogative"/>
     <sdef n="recip"     c="Reciprocal"/>
 
+    <sdef n="cm"        c="Comma"/>
+    <sdef n="guio"      c="Hyphen"/>
     <sdef n="sent"      c="Sentence marker"/>
     <sdef n="lpar"      c="Left parenthesis"/>
     <sdef n="rpar"      c="Right parenthesis"/>
@@ -89,9 +92,8 @@
 
     <pardef n="separa">
       <e><re>[.\?;:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
-	  <e><re>[,]+</re><p><l></l><r><s n="cm"/></r></p></e> <!-- comma was missing. using the same code as macedonian "cm" -->
-	  <e><re>[-]+</re><p><l></l><r><s n="guio"/></r><p></e> <!-- dash is missing too. using the same code as macedonian "guio" -->
-	  <!-- what about apostrophe and double quote? they are missing from both MK and SQ -->
+	  <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e> 
+	  <e><p><l>-</l><r><s n="guio"/></r></p></e> 
     </pardef>
 
     <pardef n="paresq">
@@ -5386,8 +5388,8 @@
 	<e lm="edicion"><i>edicion</i><par n="mal__n_m"/></e>
 
 	<e lm="turizëm"><i>turiz</i><par n="turiz/ëm__n_m"/></e> 
-	<e lm="terrorizëm"><i>terrorizm</i><par n=" turiz/ëm__n_m "/></e>
-	<e lm="komunizëm"><i>komunizm</i><par n=" turiz/ëm__n_m "/></e>
+	<e lm="terrorizëm"><i>terrorizm</i><par n="turiz/ëm__n_m"/></e>
+	<e lm="komunizëm"><i>komunizm</i><par n="turiz/ëm__n_m"/></e>
 
 	<e lm="zog"><i>zog</i><par n="zog__n_m"/></e>
 	<e lm="vajzë"><i>vajz</i><par n="vajz/ë__n_f"/></e>
@@ -6435,8 +6437,8 @@
     <e lm="avion"><i>avion</i><par n="avion__n_m"/></e>
     <e lm="barazim"><i>barazim</i><par n="mal__n_m"/></e>
     <e lm="bashkëkohor"><i>bashkëkohor</i><par n="anglez__n"/></e>
-    <e lm="bashkëpunues"><i>bashkëpunues</i><par n="blerës__n"/></e>
-    <e lm="bashkërendues"><i>bashkërendues</i><par n="blerës__n"/></e>
+    <e lm="bashkëpunues"><i>bashkëpunues</i><par n="blerës__n_m"/></e>
+    <e lm="bashkërendues"><i>bashkërendues</i><par n="blerës__n_m"/></e>
     <e lm="bashkëveprim"><i>bashkëveprim</i><par n="mal__n_m"/></e>
     <e lm="bashkiak"><i>bashkiak</i><par n="anglez__n"/></e>
     <e lm="batalion"><i>batalion</i><par n="mal__n_m"/></e>
@@ -6444,8 +6446,8 @@
     <e lm="biletë"><i>bilet</i><par n="vajz/ë__n_f"/></e>
     <e lm="bindës"><i>bindës</i><par n="mal__n_m"/></e>
     <e lm="biometrik"><i>biometrik</i><par n="anglez__n"/></e>
-    <e lm="blerës"><i>blerës</i><par n="blerës__n"/></e>
-    <e lm="shitës"><i>shitës</i><par n="blerës__n"/></e> 
+    <e lm="blerës"><i>blerës</i><par n="blerës__n_m"/></e>
+    <e lm="shitës"><i>shitës</i><par n="blerës__n_m"/></e> 
 	<!-- added "shitës" which behaves like "blerës". 
 	     since we could have "blerëse" we  include feminine 
 		 in the paradigm and make it like "anglez" with a 
@@ -6459,7 +6461,7 @@
     <e lm="bregdetar"><i>bregdetar</i><par n="anglez__n"/></e>
     <e lm="bregdet"><i>bregdet</i><par n="mal__n_m"/></e>
     <e lm="bronz"><i>bronz</i><par n="mal__n_m"/></e>
-    <e lm="burokratik"><i>burokratik</i><par n="anglez__nf"/></e>
+    <e lm="burokratik"><i>burokratik</i><par n="anglez__n"/></e>
     <e lm="burrë"><i>burr</i><par n="burr/ë__n_m"/></e>
     <e lm="çast"><i>çast</i><par n="mal__n_m"/></e>
     <e lm="celular"><i>celular</i><par n="anglez__n"/></e>
