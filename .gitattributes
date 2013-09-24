@@ -1,0 +1,12 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/README -text
+/apertium-sqi-0.1.pc.in -text
+/apertium-sqi.sqi.dix -text
+/apertium-sqi.sqi.rlx -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text

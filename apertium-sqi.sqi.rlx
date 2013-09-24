@@ -1,0 +1,27 @@
+LIST GENDER = m f nt ;
+LIST CASE = nom acc gen dat abl;
+LIST V-FIN = pri pii past pio pra prs imp;
+
+LIST NOMPREP = "nga" "te";
+LIST GENPREP = "nga ana" "me anë" "për shkak";
+LIST ACCPREP = "në" "mbi" "përmbi" "nëpër" "ndër" "nën" "më" "për";
+LIST ABLPREP = "prapa" "pas" "afër" "poshtë" "jashtë" "prej" "midis";
+
+SET NOMINAL = (n) | (np) ;
+SET V-FIN-NOT-SUBJUNC = V-FIN - (prs);
+
+SECTION
+
+SELECT (vblex pp) IF (-1C ("kam" vbhaver));
+SELECT (pr) IF (0 (pr)) (0 (adv)) (1C (n));
+REMOVE (part) IF (0 (lig)) (0 (part)) (-1C NOMINAL) (1C NOMINAL);
+SELECT (lig) + $$GENDER IF (-1C NOMINAL + $$GENDER);
+REMOVE (lig) + $$CASE IF (NOT -1 $$CASE);
+REMOVE (vblex) IF (0 ("që")) (1C V-FIN);
+	## Partia Radikale Serbe udhëhiqet ende nga njerëz që kanë marrë pjesë në qeveri gjatë regjimit të Slobodan Millosheviçit.
+
+REMOVE (prs) IF (0 (prs)) (0 (pri)) (NOT -1 ("u"));
+	## Të katër ata do të rrinë në Beograd deri sa të nisin gjyqet e tyre në Hagë.
+
+REMOVE V-FIN-NOT-SUBJUNC IF (-1 ("u"));
+	## Disa orë më vonë ai u thirr në një takim me kryeprokuroren e OKB-së për krimet e luftës Karla del Ponte.
