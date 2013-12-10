@@ -5160,7 +5160,6 @@
 
   <section id="main" type="standard">
 
- <section id="main" type="standard">
     <!-- Ligature -->
 
     <e lm="i"><i></i><par n="/i__lig"/></e>
@@ -6348,7 +6347,6 @@
 
 
 
-  </section>
   <section id="check" type="standard">
 
     <e lm="ditë"><i>dit</i><par n="dogan/ë__n_f"/></e>
