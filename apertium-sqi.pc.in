@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-sqi
 srcdir=@datarootdir@/apertium/apertium-sqi
 
 Name: apertium-sqi
