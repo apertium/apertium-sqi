@@ -1,3 +1,5 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+
 LIST GENDER = m f nt ;
 LIST CASE = nom acc gen dat abl;
 LIST V-FIN = pri pii past pio pra prs imp;
