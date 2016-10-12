@@ -6,6 +6,8 @@
 /NEWS -text
 /README -text
 /apertium-sqi.pc.in -text
+/apertium-sqi.post-sqi.dix -text
+/apertium-sqi.sqi.acx -text
 /apertium-sqi.sqi.dix -text
 /apertium-sqi.sqi.rlx -text
 /autogen.sh -text
