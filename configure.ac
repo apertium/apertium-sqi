@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Albanian], [0.1.0], [francis.tyers@gmail.com], [apertium-sqi], [http://wiki.apertium.org/wiki/Apertium-sqi])
+AC_INIT([Apertium Albanian], [0.1.0], [francis.tyers@gmail.com], [apertium-sqi], [https://wiki.apertium.org/wiki/Apertium-sqi])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
