@@ -1,0 +1,24 @@
+[-5tLiGinZGkq#0] ^penahett/*penahett$
+[/-5tLiGinZGkq]
+[0eHXfsF8O1Wj#0] ^3%/3%<num>$
+[/0eHXfsF8O1Wj]
+[B-8grGQ40olu#0] ^Fats/*Fats$
+[/B-8grGQ40olu]
+[P3m7e0NbBTIW#0] ^e/e<cnjcoo>/i<lig><m><sp><acc><def>/i<lig><m><pl><nom><def>/i<lig><f><sg><nom><ind>/i<lig><f><sg><nom><def>/i<lig><f><sp><acc><def>/i<lig><f><pl><nom><def>$
+[/P3m7e0NbBTIW]
+[V8y8taQRtCQY#0] ^për t'/për të<part>$
+[/V8y8taQRtCQY]
+[d5cEVr4O2lZo#0] ^t'/të<part>$
+[/d5cEVr4O2lZo]
+[dlkrnebTgjil#0] ^ta/të<part>/prpers<prn><pers><p3><m><pl><acc>$
+[/dlkrnebTgjil]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[pUtwJCo7Cz3h#0] ^punëpv/*punëpv$
+[/pUtwJCo7Cz3h]
+[q2U7rlRdz7pF#0] ^Batiee/*Batiee$
+[/q2U7rlRdz7pF]
+[tyFLx52ouEm6#0] ^Medefn/*Medefn$
+[/tyFLx52ouEm6]
+[ul7FHQekrA6V#0] ^)/)<rpar>$
+[/ul7FHQekrA6V]
